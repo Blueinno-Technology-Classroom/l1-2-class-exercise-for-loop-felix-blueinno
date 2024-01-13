@@ -3,41 +3,88 @@
 Q1: 
 '''
 
-# TODO: Write your code here
+for cycle_number in range(0, 1000001, 1):
+    print(cycle_number)
 
 ##################################################
 '''
 Q2:
+0 + 1 + 2 + 3 + 4 + 5 + ... + 1000000 = ???
 '''
 
-# TODO: Write your code here
+result = 0
+for cycle_number in range(0, 1000001, 1):
+    result = result + cycle_number
+
+print(f'The sum is {result}')
+# should be 500000500000
+
 
 ##################################################
 '''
 Q3:
 '''
 
-# TODO: Write your code here
+for i in range(2, 14, 2):
+    print(i)
 
 ##################################################
 '''
 Q4:
 '''
 
-# TODO: Write your code here
+for i in range(97, 79, -3):
+    print(i)
 
 ##################################################
 '''
-Q5:
+Q5a:
 '''
+for i in range(1, 11, 1):
+    print(i * i)
 
-# TODO: Write your code here
+
+'''
+Q5b:
+'''
+result = 1
+diff = 3
+
+for i in range(10):
+    print(result)
+    result += diff
+    diff += 2
 
 ##################################################
 '''
 Q6:
 '''
 
-# TODO: Write your code here
+for i in range(5):
+    print('*' * 5)
+
+##################################################
+'''
+Q7:
+'''
+
+for i in range(1, 6, 1):
+    print('*' * i)
+
+##################################################
+'''
+Q8:
+'''
+
+for i in range(5, 0, -1):
+    print('*' * i)
+
+##################################################
+'''
+Q9:
+'''
+
+for i in range(1, 6, 1):
+    print(f'{i}' * i)
 
 ##################################################
